@@ -36,7 +36,7 @@
                 </article>
             </dd>
             <dd class="this_line">
-                <ul class="this_line_color line_0">
+                <ul class="line_color line_0">
                     <li>
                         <em>待抢单</em>
                         <span></span>
@@ -95,7 +95,7 @@
                 </article>
             </dd>
             <dd class="this_line">
-                <ul class="this_line_color line_1">
+                <ul class="line_color line_1">
                     <li>
                         <em>待抢单</em>
                         <span></span>
@@ -154,7 +154,7 @@
                 </article>
             </dd>
             <dd class="this_line">
-                <ul class="this_line_color line_2">
+                <ul class="line_color line_2">
                     <li>
                         <em>待抢单</em>
                         <span></span>
@@ -213,7 +213,7 @@
                 </article>
             </dd>
             <dd class="this_line">
-                <ul class="this_line_color line_6">
+                <ul class="line_color line_6">
                     <li>
                         <em>待抢单</em>
                         <span></span>
