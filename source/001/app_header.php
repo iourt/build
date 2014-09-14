@@ -7,7 +7,6 @@
         <meta name="format-detection" content="telephone=no" />
 
         <link rel="stylesheet" type="text/css" href="themes/all.css" />
+        <script type="text/javascript" src="themes/js/jquery.min-1.8.2.js"></script>
     </head>
     <body>
-        <header>
-        </header>

@@ -30,6 +30,11 @@ var task = {
             .pipe(gulp.dest('./' + dirbuild + '/'));
     },
 
+    js: function() {
+        gulp.src('./' + dirsource + '/**/*.js')
+            .pipe(gulp.dest('./' + dirbuild + '/'));
+    },
+
     watch: function() {
         watch([
                 './' + dirsource + '/**/*.jpg',
@@ -41,6 +46,7 @@ var task = {
                 task.less();
                 task.php();
                 task.img();
+                task.js();
             // files.pipe(function() {
             // });
         });
@@ -59,6 +65,7 @@ gulp.task('default', ['clean'], function(){
         task.less();
         task.php();
         task.img();
+        task.js();
         task.watch();
     });
 });
