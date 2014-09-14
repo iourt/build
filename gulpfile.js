@@ -2,7 +2,8 @@ var gulp    = require('gulp'),
     connect = require('gulp-connect'),
     less    = require('gulp-less'),
     path    = require('path'),
-    watch   = require('gulp-watch');
+    watch   = require('gulp-watch'),
+    clean   = require('gulp-clean');
 
 var dirsource = 'source',
     dirbuild  = 'build';
@@ -30,15 +31,17 @@ var task = {
     },
 
     watch: function() {
-        watch('./' + dirsource + '/**/*', function(files) {
-            
+        watch([
+                './' + dirsource + '/**/*.jpg',
+                './' + dirsource + '/**/*.png',
+                './' + dirsource + '/**/*.php',
+                './' + dirsource + '/**/*.less',
+                './' + dirsource + '/**/*.js'
+            ], function(files) {
                 task.less();
                 task.php();
                 task.img();
             // files.pipe(function() {
-            //     task.less();
-            //     task.php();
-            //     task.img();
             // });
         });
     }
