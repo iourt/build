@@ -25,7 +25,8 @@ var task = {
     img: function() {
         gulp.src([
                 './' + dirsource + '/**/*.jpg',
-                './' + dirsource + '/**/*.png'
+                './' + dirsource + '/**/*.png',
+                './' + dirsource + '/**/*.css'
             ])
             .pipe(gulp.dest('./' + dirbuild + '/'));
     },
