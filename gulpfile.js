@@ -6,7 +6,7 @@ var gulp    = require('gulp'),
     clean   = require('gulp-clean');
 
 var dirsource = 'source',
-    dirbuild  = 'build';
+    dirbuild  = 'mockup';
 
 var task = {
     less: function() {
