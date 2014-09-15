@@ -519,3 +519,24 @@ footer img{
     line-height: 30px;
     -webkit-border-radius: 4px;
 }
+
+
+.video_show{
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    border-bottom: 1px solid #7b674d;
+}
+.video_show img{
+    width: 100%;
+    height: auto;
+}
+.video_show ul{
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 0;
+}
+.video_show li{
+    display: inline-block;
+}

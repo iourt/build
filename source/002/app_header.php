@@ -18,11 +18,11 @@
 
             <div class="js_img img_slider">
                 <ul class="bxslider">
-                    <li><img src="/themes/temp/1.jpg" title="" /></li>
-                    <li><img src="/themes/temp/2.jpg" title="" /></li>
-                    <li><img src="/themes/temp/3.jpg" title="" /></li>
-                    <li><img src="/themes/temp/4.jpg" title="" /></li>
-                    <li><img src="/themes/temp/5.jpg" title="" /></li>
+                    <li><img src="themes/temp/1.jpg" title="" /></li>
+                    <li><img src="themes/temp/2.jpg" title="" /></li>
+                    <li><img src="themes/temp/3.jpg" title="" /></li>
+                    <li><img src="themes/temp/4.jpg" title="" /></li>
+                    <li><img src="themes/temp/5.jpg" title="" /></li>
                 </ul>
                 <script type="text/javascript">
                     $('.bxslider').bxSlider({

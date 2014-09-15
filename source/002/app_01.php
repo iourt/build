@@ -1,14 +1,25 @@
 <?php include 'app_header.php'; ?>
 
-<div style="width:100%;border-bottom:1px solid #7b674d;">
-    <img src="/themes/temp/1.jpg" title="" style="width:100%;" />
-</div>
-<ul class="img_list">
-    <li><a href=""><img src="/themes/temp/1.jpg" alt="" /></a></li>
-    <li><a href=""><img src="/themes/temp/1.jpg" alt="" /></a></li>
-    <li><a href=""><img src="/themes/temp/1.jpg" alt="" /></a></li>
-    <li><a href=""><img src="/themes/temp/1.jpg" alt="" /></a></li>
+<section class="js_detail video_show">
+    <ul>
+        <li><img src="themes/temp/1.jpg" /></li>
+        <li><img src="themes/temp/2.jpg" /></li>
+        <li><img src="themes/temp/3.jpg" /></li>
+        <li><img src="themes/temp/4.jpg" /></li>
+    </ul>
+</section>
+<ul class="js_link img_list">
+    <li><a><img src="themes/temp/1.jpg" alt="" /></a></li>
+    <li><a><img src="themes/temp/1.jpg" alt="" /></a></li>
+    <li><a><img src="themes/temp/1.jpg" alt="" /></a></li>
+    <li><a><img src="themes/temp/1.jpg" alt="" /></a></li>
 </ul>
+<script type="text/javascript" src="themes/js/app_common.js"></script>
+<script type="text/javascript">
+window.onload = function() {
+    siteCommon.videoTab();
+};
+</script>
 
 <div class="text_01">
     <h2>
