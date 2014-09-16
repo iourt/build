@@ -42,6 +42,7 @@ var task = {
                 './' + dirsource + '/**/*.png',
                 './' + dirsource + '/**/*.php',
                 './' + dirsource + '/**/*.less',
+                './' + dirsource + '/**/*.css',
                 './' + dirsource + '/**/*.js'
             ], function(files) {
                 task.less();

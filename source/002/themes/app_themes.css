@@ -63,7 +63,6 @@ header menu li{
     display: inline-block;
     line-height: 40px;
     color: #fff;
-    font-size: 12px;
     font-weight: bold;
     text-align: center;
     background: -webkit-linear-gradient(top, #cba679 0%, #876245 100%);
@@ -74,11 +73,16 @@ header menu li:nth-child(2){
     border-bottom: 1px solid #fff;
 
 }
-header menu li:nth-child(odd){
-    border-right:1px solid #fff;
+header menu li:nth-child(odd) a{
+    /*border-right:1px solid #fff;*/
+    -webkit-box-shadow: inset -1px 0 0 #fff;
 }
 header menu li a{
+    display: block;
+    width: 100%;
+    line-height: 40px;
     color: #fff;
+    font-size: 12px;
 }
 
 
